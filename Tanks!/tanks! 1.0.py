@@ -22,6 +22,7 @@ pygame.init()
 gameDisplay = pygame.display.set_mode((windowWidth, windowHeight))
 pygame.display.set_caption("Tanks!")
 clock = pygame.time.Clock()
+
 #create fonts
 font = pygame.font.SysFont(None, 24)
 bigFont = pygame.font.SysFont("comicsansms", 72)
